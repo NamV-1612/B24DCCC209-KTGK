@@ -21,20 +21,15 @@
         component: './TrangChu',
         icon: 'HomeOutlined',
     },
-    // --- bài thực hành ---
+    // --- Quản lý đơn hàng ----
     {
-        path: '/bai-1',
-        name: 'Bài 1: Đoán số',
-        component: './baiTH1-B24CC209/bai1/doanSoRandom', 
-        icon: 'QuestionCircleOutlined',
-    },
-    {
-        path: '/bai-2',
-        name: 'Bài 2: TodoList',
-        component: './baiTH1-B24CC209/bai2/toDoList',  
-        icon: 'UnorderedListOutlined',
+        path: '/quan-ly-don-hang',
+        name: 'Quản lý đơn hàng',
+        component: './quanLyDonHang',
+        icon: 'ShoppingCartOutlined',
     },
     // ------------------------------------
+
     {
         path: '/gioi-thieu',
         name: 'About',
